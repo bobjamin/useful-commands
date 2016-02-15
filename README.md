@@ -33,3 +33,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Insert a new line above every line that matches your phrase and save the output
 
 ```sed '/phrase/{x;p;x;}' input.txt > output.txt```
+
+* Echo out the line count and length of longest line in a file
+
+```echo "Line count:" `wc -l < FILENAME` && echo "Longest line length: " `wc -L < FILENAME````
