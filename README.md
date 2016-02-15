@@ -22,3 +22,7 @@
 * Display git settings
 
 ```git config --list```
+
+* Display a menu showing alternative JRE installations
+
+```sudo update-alternatives --config java```
