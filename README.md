@@ -12,3 +12,12 @@
 * Delete a remote git branch
 
 ```git push origin --delete BRANCH```
+
+* Set git credentials
+
+```git config --global user.name "User"```
+```git config --global user.email "foo@bar.com"```
+
+* Display git settings
+
+```git config --list```
