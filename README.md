@@ -8,3 +8,7 @@
 
 
 ```mongodump --host server.url --db db_name --collection coll_name --out - | zip collection_dump.zip```
+
+* Delete a remote git branch
+
+```git push origin --delete BRANCH```
