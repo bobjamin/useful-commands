@@ -16,6 +16,7 @@
 * Set git credentials
 
 ```git config --global user.name "User"```
+
 ```git config --global user.email "foo@bar.com"```
 
 * Display git settings
