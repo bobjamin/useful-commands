@@ -37,3 +37,8 @@ _Using Ubuntu 14.04.3 LTS_
 * Echo out the line count and length of longest line in a file
 
 ```echo "Line count:" `wc -l < FILENAME` && echo "Longest line length: " `wc -L < FILENAME````
+
+* Display a snapshot of the process using the most memory
+
+
+```ps aux --sort -rss | head -n 2```
