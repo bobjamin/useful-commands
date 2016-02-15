@@ -29,3 +29,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Display a menu showing alternative JRE installations
 
 ```sudo update-alternatives --config java```
+
+* Insert a new line above every line that matches your phrase and save the output
+
+```sed '/phrase/{x;p;x;}' input.txt > output.txt```
