@@ -43,3 +43,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Display a snapshot of the process with heaviest CPU usage
 
 ```ps aux | sort -rk 3,3 | head -n 2```
+
+* Grep for something and display the 3 lines before and after your match
+
+```grep -A 3 -B 3 "something" example.log```
