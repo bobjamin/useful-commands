@@ -51,3 +51,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Ping scan the specified subnet and return a list of IP's that respond
 
 ```nmap 192.168.0.0/24```
+
+* Identify all of the hostnames of the IP's found in a specified subet
+
+```nmap -sL 192.168.0.0/24```
