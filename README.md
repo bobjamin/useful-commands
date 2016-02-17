@@ -47,3 +47,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Grep for something and display the 3 lines before and after your match
 
 ```grep -A 3 -B 3 "something" example.log```
+
+* Ping scan the specified subnet and return a list of IP's that respond
+
+```nmap 192.168.0.0/24```
