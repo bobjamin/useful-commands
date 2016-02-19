@@ -87,3 +87,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Run apache configuration syntax test
 
 ```apachectl configtest```
+
+* Grab a file from a ftp server with curl
+
+```$ curl -u ftpuser:ftppass -O ftp://ftp_server/test.txt```
