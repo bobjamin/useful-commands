@@ -59,3 +59,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Check if a port is in use
 
 ```lsof -i :27017```
+
+* Remove all but the 5 latest files in a directory
+
+```rm `ls -t | awk 'NR>5'````
