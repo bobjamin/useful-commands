@@ -82,4 +82,4 @@ _Using Ubuntu 14.04.3 LTS_
 
 * Add user
 
-```sudo useradd```
+```sudo useradd caleb```
