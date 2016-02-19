@@ -79,3 +79,7 @@ _Using Ubuntu 14.04.3 LTS_
 * SSH maximum verbosity
 
 ```ssh -vvv host@host.com```
+
+* Add user
+
+```sudo useradd```
