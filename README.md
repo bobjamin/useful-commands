@@ -63,3 +63,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Remove all but the 5 latest files in a directory
 
 ```rm `ls -t | awk 'NR>5'````
+
+* Check CRON installation log
+
+```grep CRON /var/log/syslog```
