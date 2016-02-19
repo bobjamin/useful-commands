@@ -67,3 +67,15 @@ _Using Ubuntu 14.04.3 LTS_
 * Check CRON installation log
 
 ```grep CRON /var/log/syslog```
+
+* Generate key pair
+
+```ssh-keygen -t rsa```
+
+* Force SSH to use a private key
+
+```ssh -i /path/to/private host@host.com```
+
+* SSH maximum verbosity
+
+```ssh -vvv host@host.com```
