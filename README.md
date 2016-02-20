@@ -91,3 +91,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Grab a file from a ftp server with curl
 
 ```$ curl -u ftpuser:ftppass -O ftp://ftp_server/test.txt```
+
+* Find all hidden files in a directory
+
+```find /tmp -type f -name ".*"```
