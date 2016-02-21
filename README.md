@@ -95,3 +95,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Find all hidden files in a directory
 
 ```find /tmp -type f -name ".*"```
+
+* Substitute "foo" with "bar" ONLY for lines which contain "baz"
+
+```sed '/baz/s/foo/bar/g'```
