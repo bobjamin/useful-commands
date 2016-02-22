@@ -100,6 +100,6 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```sed '/baz/s/foo/bar/g'```
 
-* Find the numbers in my log file between "100% complete - " and "filves moved" and add them up
+* Find the numbers in my log file between "100% complete - " and "files moved" and add them up
 
 ```cat example.log | grep -o -P '(?<=100% complete - ).*(?=files moved)' |  awk '{ SUM += $1} END { print SUM }'```
