@@ -107,3 +107,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Set an environment variable for one command only
 
 ```var=value command'```
+
+* Find the unique occurences of new lines containing the text "key:" in all of the files in the current directory
+
+```grep -rh "^key:" | sort -u```
