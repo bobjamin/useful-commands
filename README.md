@@ -123,3 +123,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Find the unique occurences of new lines containing the text "key:" in all of the files in the current directory
 
 ```grep -rh "^key:" | sort -u```
+
+* SFTP using a private key for authentication
+
+```sftp -o IdentityFile=/path/to/private_key user@host```
