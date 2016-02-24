@@ -2,6 +2,10 @@
 
 _Using Ubuntu 14.04.3 LTS_
 
+* Show numberic version of file permission 
+
+```stat -c "%a %n" /path/to/file```
+
 * Bump process priority (-20 to 20 _negatives require root_) -20 highest, 20 lowest
 
 ```nice -10 command```
