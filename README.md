@@ -2,6 +2,10 @@
 
 _Using Ubuntu 14.04.3 LTS_
 
+* Bump process priority (-20 to 20 _negatives require root_) -20 highest, 20 lowest
+
+```nice -10 command```
+
 * View recently installed packages
 
 ```awk '$3~/^install$/ {print $4;}' /var/log/dpkg.log```
