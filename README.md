@@ -2,6 +2,10 @@
 
 _Using Ubuntu 14.04.3 LTS_
 
+* View recently installed packages
+
+```awk '$3~/^install$/ {print $4;}' /var/log/dpkg.log```
+
 * Print the amount of items in the current directory every 2 seconds
 
 ```while sleep 2; do ls | wc -l; done```
