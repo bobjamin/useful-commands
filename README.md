@@ -6,6 +6,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```awk '$3~/^install$/ {print $4;}' /var/log/dpkg.log```
 
+* List all users
+
+```cut -d: -f1 /etc/passwd```
+
 * Print the amount of items in the current directory every 2 seconds
 
 ```while sleep 2; do ls | wc -l; done```
