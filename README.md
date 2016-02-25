@@ -135,3 +135,11 @@ _Using Ubuntu 14.04.3 LTS_
 * Show available aliases
 
 ```alias``` or ```compgen -a```
+
+* Remove all aliases
+
+```unalias -a```
+
+* Remove a specific alias
+
+```unalias alias_name```
