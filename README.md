@@ -155,3 +155,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Open vim on the first match of the specified term
 
 ```vim +/main Application.java```
+
+* Ignore whitespace when comparing files
+
+```diff -w a.c b.c```
