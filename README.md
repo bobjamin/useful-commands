@@ -147,3 +147,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Find all empty files in the home directory
 
 ```find ~ -empty```
+
+* $ Open a file in vim on a specific line
+
+```$ vim +14 Application.java```
