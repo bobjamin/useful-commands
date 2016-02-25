@@ -148,6 +148,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```find ~ -empty```
 
-* $ Open a file in vim on a specific line
+* Open a file in vim on a specific line
 
-```$ vim +14 Application.java```
+```vim +14 Application.java```
+
+* Open vim on the first match of the specified term
+
+```vim +/main Application.java```
