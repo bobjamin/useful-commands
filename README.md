@@ -143,3 +143,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Remove a specific alias
 
 ```unalias alias_name```
+
+* Find all empty files in the home directory
+
+```find ~ -empty```
