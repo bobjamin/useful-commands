@@ -131,3 +131,7 @@ _Using Ubuntu 14.04.3 LTS_
 * SFTP using a private key for authentication
 
 ```sftp -o IdentityFile=/path/to/private_key user@host```
+
+* Show available aliases
+
+```alias``` or ```compgen -a```
