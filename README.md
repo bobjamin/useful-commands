@@ -159,3 +159,15 @@ _Using Ubuntu 14.04.3 LTS_
 * Ignore whitespace when comparing files
 
 ```diff -w a.c b.c```
+
+* Show android devices connected
+
+```adb devices```
+
+* Enter device shell using android debug bridge
+
+```adb shell```
+
+* Take a screencap of your device and save it to a png on your machine
+
+```adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > screen.png```
