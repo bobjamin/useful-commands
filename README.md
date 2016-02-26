@@ -26,6 +26,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```mongodump --host server.url --db db_name --collection coll_name --out - | zip collection_dump.zip```
 
+* Show all local and remote git branches
+
+```git branch -av```
+
 * Delete a remote git branch
 
 ```git push origin --delete BRANCH```
