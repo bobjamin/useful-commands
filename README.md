@@ -2,7 +2,7 @@
 
 _Using Ubuntu 14.04.3 LTS_
 
-* Show numberic version of file permission 
+* Show numeric version of file permission 
 
 ```stat -c "%a %n" /path/to/file```
 
