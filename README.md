@@ -52,6 +52,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```sudo update-alternatives --config java```
 
+* Restart apache
+
+```/etc/init.d/apache2 restart```
+
 * Insert a new line above every line that matches your phrase and save the output
 
 ```sed '/phrase/{x;p;x;}' input.txt > output.txt```
