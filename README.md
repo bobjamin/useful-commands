@@ -215,3 +215,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Tag a Docker (image id, accountname/imagename:version-label/tag)
 
 ```docker tag 123abc123abc cbrowne/mydocker:latest```
+
+* Login to Docker Hub
+
+```docker login --username=cbrowne --email=calebrjbrowne@gmail.com```
