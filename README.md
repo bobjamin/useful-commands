@@ -203,3 +203,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Create and run a Docker container using a specific image
 
 ```docker run image_name```
+
+* View local Docker images
+
+```docker images```
