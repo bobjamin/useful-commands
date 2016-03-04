@@ -223,3 +223,10 @@ _Using Ubuntu 14.04.3 LTS_
 * Push an image to a Docker Hub repository
 
 ```docker push cbrowne/mydocker```
+
+* Remove Docker local image by ID or name
+
+```docker rmi -f 7d9495d03763```
+
+```docker rmi -f cbrowne/mydocker```
+
