@@ -199,3 +199,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Start the Docker daemon
 
 ```sudo service docker start```
+
+* Create and run a Docker container using a specific image
+
+```docker run image_name```
