@@ -187,3 +187,11 @@ _Using Ubuntu 14.04.3 LTS_
 * Convert a pdf document to a text file
 
 ```pdftotext source.pdf```
+
+* Get the latest Docker package
+
+```curl -fsSL https://get.docker.com/ | sh```
+
+* Add user to Docker group
+
+```sudo usermod -aG docker username```
