@@ -207,3 +207,7 @@ _Using Ubuntu 14.04.3 LTS_
 * View local Docker images
 
 ```docker images```
+
+* Build a Docker image using the Dockerfile in the current directory
+
+```docker build -t image_name .```
