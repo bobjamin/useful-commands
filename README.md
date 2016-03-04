@@ -230,3 +230,6 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```docker rmi -f cbrowne/mydocker```
 
+* Run an interactive shell in a Docker image
+
+```docker run -i -t mydocker /bin/bash```
