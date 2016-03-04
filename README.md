@@ -195,3 +195,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Add user to Docker group
 
 ```sudo usermod -aG docker username```
+
+* Start the Docker daemon
+
+```sudo service docker start```
