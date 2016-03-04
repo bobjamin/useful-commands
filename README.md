@@ -10,6 +10,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```nice -10 command```
 
+* View a list of all locally installed packages 
+
+```dpkg --get-selections | grep -v deinstall```
+
 * View recently installed packages
 
 ```awk '$3~/^install$/ {print $4;}' /var/log/dpkg.log```
