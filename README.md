@@ -241,3 +241,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Run an interactive shell in a Docker image and set the hostname
 
 ```sudo docker run -h mydocker -i -t mydocker /bin/bash```
+
+* Cat backwards
+
+```tac my.log```
