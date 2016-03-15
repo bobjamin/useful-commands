@@ -2,6 +2,10 @@
 
 _Using Ubuntu 14.04.3 LTS_
 
+* Import all of the json files in the current directory into a mongo collection 
+
+```for f in *.json; do echo "Processing $f file.." && mongoimport -d mydb -c mycoll $f; done```
+
 * Show numeric version of file permission 
 
 ```stat -c "%a %n" /path/to/file```
