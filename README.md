@@ -249,3 +249,7 @@ _Using Ubuntu 14.04.3 LTS_
 * Cat backwards
 
 ```tac my.log```
+
+* Start memcached on 192.168.9.110 port 11211 with 1024MB maximum cache size in the background as a daemon
+
+```memcached -d -m 1024 -p 11211 -l 192.168.0.110```
