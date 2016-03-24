@@ -6,6 +6,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```for f in *.json; do echo "Processing $f file.." && mongoimport -d mydb -c mycoll $f; done```
 
+* Export a limited amount of documents from a collection to a json file
+
+``` mongoexport -h host_name -d db_name -c coll_name --limit 10 --out export.json```
+
 * Show numeric version of file permission 
 
 ```stat -c "%a %n" /path/to/file```
