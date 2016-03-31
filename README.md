@@ -4,7 +4,7 @@ _Using Ubuntu 14.04.3 LTS_
 
 * Run 100 http requests with a concurrency of 10 using apache bench
 
-``ab -n 100 -c 10 http://localhost:9999/someAPICall```
+```ab -n 100 -c 10 http://localhost:9999/someAPICall```
 
 * Import all of the json files in the current directory into a mongo collection 
 
