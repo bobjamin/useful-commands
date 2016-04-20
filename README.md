@@ -88,6 +88,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```ps aux | sort -rk 3,3 | head -n 2```
 
+* Postgres shell
+
+```psql -h myhost -d mydb -U myuser```
+
 * Grep for something and display the 3 lines before and after your match
 
 ```grep -A 3 -B 3 "something" example.log```
