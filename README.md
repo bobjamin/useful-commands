@@ -30,6 +30,10 @@ _Using Ubuntu 14.04.3 LTS_
 
 ```awk '$3~/^install$/ {print $4;}' /var/log/dpkg.log```
 
+* Print directory size (human readable)
+
+```du -sh *```
+
 * List all users
 
 ```cut -d: -f1 /etc/passwd```
