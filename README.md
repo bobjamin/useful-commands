@@ -273,3 +273,10 @@ _Using Ubuntu 14.04.3 LTS_
 * `cat` into a protected file
 
 ```cat <whatever> | sudo tee <--append> /write/protected/file```
+
+# Docker
+* Get into a running container
+```docker exec -it <<container-id>> bash```
+
+* Run Docker commands on host from within a container
+```docker run -it -v $(which docker):/usr/bin/docker -v /var/run/docker.sock:/var/run/docker.sock docker /bin/sh```
